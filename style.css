@@ -138,11 +138,21 @@
     height: 30em;
     flex-direction: column;
 }
+
 .quote-container q {
     font-size: 38px;
     width: 60%;
 }
+
 .quote-container p {
     font-size: 20px;
 }
 
+.footer-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    color: #f9faf8
+}
