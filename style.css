@@ -148,6 +148,42 @@
     font-size: 20px;
 }
 
+.action-container {
+    background-color: #f9faf9;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+}
+
+.action-title {
+    font-size: 24px;
+}
+
+.action-description {
+    font-size: 18px;
+}
+
+.action-card button {
+    color: inherit;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 5em;
+}
+
 .footer-container {
     background-color: #1f2937;
     display: flex;
